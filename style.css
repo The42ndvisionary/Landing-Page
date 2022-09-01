@@ -20,3 +20,24 @@ img {
     height: 300px;
     width: 500px;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+    border: 20px;
+    padding: 50px;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid red;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.0.6)
+    padding: 16px;
+    margin: 16px;
+    width: 100x;
+}
+
+a {
+    text-decoration: none;
+}
