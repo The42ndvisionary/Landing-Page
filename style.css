@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 ul {
@@ -16,6 +17,17 @@ ul {
     flex-direction: column;
 }
 
+button.button {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+   margin-left: 400px;
+   margin-right: 400px;
+   padding: 10px;
+   border: 10px;
+   
+}
+
 img {
     height: 300px;
     width: 500px;
@@ -23,19 +35,42 @@ img {
 
 .container {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
     flex-direction: row;
-    margin:10px;
+    margin:30px;
     border: 20px;
     padding: 50px;
     gap: 20px;
 }
 
 .card {
-    border: 1px solid red;
+    
+   
+    border: 5px solid skyblue;
     box-shadow: 2px 4px 16px rgba(0,0,0,.0.6)
     padding: 16px;
     margin: 16px;
-    width: 100x;
+    width: 150px;
+    height:200px
+
+}
+
+
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    background-color:  #E5E7EB;
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+    font-size:36px ;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
 }
 
 a {
